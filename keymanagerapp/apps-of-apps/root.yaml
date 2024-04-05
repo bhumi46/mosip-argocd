@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/bhumi46/mosip-argocd-apps.git
-    path: keymanagerapp/apps-of-apps
+    path: ./keymanagerapp/apps-of-apps/
     targetRevision: master
     helm:
       valueFiles:
